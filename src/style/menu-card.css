@@ -1,0 +1,38 @@
+.menu-card {
+  width: 100%;
+}
+
+.sub-menu-contain, .view-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-menu-contain h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2a2b3c;
+}
+
+.view-all p {
+  font-size: 12px;
+  color: #f8901c;
+  font-weight: 400;
+}
+.view-all i {
+  background: #f8901c;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.view-all i .MuiSvgIcon-root {
+  font-size: 16px;
+  color: #faf9fb;
+}
+
+/*# sourceMappingURL=menu-card.css.map */
